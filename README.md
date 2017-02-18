@@ -11,7 +11,7 @@ The virtual machine requires VirtualBox and Vagrant to be downloaded and install
 ## Prepare to Run the Project
 Open a terminal window, such as Mac Terminal or GitBash run in Administrator mode on a Windows machine.
 
-- At the command prompt, navigate to the "FSND-Proj-4-master" folder
+- At the command prompt, navigate to the "FSND-Proj-4-master" folder.
 
 - Type "vagrant up", or "vagrant provision" if the vm has previously run, then ENTER.  This will start the virtual machine.
 
