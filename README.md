@@ -34,4 +34,6 @@ Open a terminal window, such as Mac Terminal or GitBash run in Administrator mod
  8. After match deletion, player standings are properly reset.
  9. Matches are properly deleted.
  10. After one match, players with one win are properly paired.
+
+ I don't know why Github is rendering the above numbers as roman numerals.
  
