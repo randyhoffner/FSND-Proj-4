@@ -13,7 +13,7 @@ Open a terminal window, such as Mac Terminal or GitBash run in Administrator mod
 
 - At the command prompt, navigate to the "FSND-Proj-4-master" folder
 
-- Type "vagrant up" or "vagrant provision" if the vm has previously run, then ENTER.  This will start the virtual machine.
+- Type "vagrant up", or "vagrant provision" if the vm has previously run, then ENTER.  This will start the virtual machine.
 
 - When installation is finished, type "vagrant ssh" then ENTER at the prompt.  This will log you into the virtual machine.  You will be running ubuntu-trusty-32.
 
@@ -22,7 +22,7 @@ Open a terminal window, such as Mac Terminal or GitBash run in Administrator mod
 ## Run the Project
 - The tournament.sql file sets up the database, creating the database, the players table, the matches table, and the standings view.  It starts with a DROP DATABASE command, to clear out any old tournament database and start anew.  Run tournament.sql by typing "psql -f tournament.sql;" then ENTER, which will create the database, tables, and view.
 
-- The tournament_test.py file uses the commands in the tournament.py file to perform the functions required to perform the 10 tests listed below.  Run it by typing "python tournament_test.py", then ENTER, at the prompt.  This will run the tests.  The results of each test are printed, and if any test is failed, the test will stop at that point with an error message.  If all tests pass, the list of tests will be printed, followed by the message:  "Success!  All tests pass!"  The list of tests follows.
+- The tournament_test.py file uses the commands in the tournament.py file to perform the functions required to run the 10 tests listed below.  Run it by typing "python tournament_test.py", then ENTER, at the prompt.  This will run the tests.  The result of each test is printed when the test is finished, and if any test is failed, the test sequence will stop at that point with an error message.  If all tests pass, the list of tests will be printed, followed by the message:  "Success!  All tests pass!"  The list of tests follows.
 
  1. countPlayers() returns 0 after initial deletePlayers() execution.
  2. countPlayers() returns 1 after one player is registered.
