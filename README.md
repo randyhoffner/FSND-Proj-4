@@ -4,7 +4,7 @@
 This project uses PostgreSQL and Python to store and report the results of a Swiss-style tournament, and Python to test the functionality of these methods.  A Swiss-style tournament is one in which no players are eliminated after each round.  Rather, each subsequent round pairs players who are equal or nearly equal in number of wins.   
 
 ## Repository Contents
-Download or clone the git repository project to the host machine, and place the resultant "FSND-Proj-4-master" folder in the home directory. The folder contains four files:  tournament.sql, tournament.py, tournament_test.py, and Vagrantfile, which sets up and provisions the virtual machine to run the project.   In order to assure a consistent environment and an identical experience across all computer platforms, the project is run using Linux Ubuntu running in a virtual machine.
+Download or clone the git repository project to the host machine, and place the resultant "FSND-Proj-4-master" folder in the home directory. The folder contains five files:  tournament.sql; tournament.py; tournament_test.py; and also Vagrantfile and pg_config.sh, which set up and provision the virtual machine to run the project.   In order to assure a consistent environment and an identical experience across all computer platforms, the project is run using Linux Ubuntu running in a virtual machine.
 
 The virtual machine requires VirtualBox and Vagrant to be downloaded and installed on the host computer.  After installing VirtualBox and Vagrant, you are ready to run the project.
 
