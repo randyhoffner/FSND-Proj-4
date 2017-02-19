@@ -144,6 +144,7 @@ def swissPairings():
         # from top (most total wins) to bottom (fewest tota wins),
         # returning id1 ([i][0]), name1 ([i][1]); and id2 ([i+1][0]),
         # name2 ([i+1][1]) for each pair, then appends the pair.
+
         for i in range(0, len(win_pair_list), 2):
             collect_players = win_pair_list[i][0], win_pair_list[i][1], \
                               win_pair_list[i+1][0], win_pair_list[i+1][1]
