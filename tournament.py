@@ -56,7 +56,7 @@ def registerPlayer(name):
 
     Args:
       name: the player's full name (need not be unique).
-      
+
     Query command execute() includes "(name,)" to protect database from
     sql injection attack.
 """
@@ -140,8 +140,9 @@ def swissPairings():
     # remainder of 0, there is an even number of players.
     # Otherwise, print "else:" statement.
     if len(win_pair_list) % 2 == 0:
-        # "for" loops over the length of the win_pair_list, returning
-        # id1 ([i][0]), name1 ([i][1]); and id2 ([i+1][0]),
+        # "for" loops over the length of the win_pair_list, ordered
+        # from top (most total wins) to bottom (fewest tota wins),
+        # returning id1 ([i][0]), name1 ([i][1]); and id2 ([i+1][0]),
         # name2 ([i+1][1]) for each pair, then appends the pair.
         for i in range(0, len(win_pair_list), 2):
             collect_players = win_pair_list[i][0], win_pair_list[i][1], \
